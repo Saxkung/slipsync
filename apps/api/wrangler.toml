@@ -1,0 +1,22 @@
+name = "slipsync-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "slipsync-api"
+
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "slipsync"
+database_id = "<your-d1-database-id>"
+
+[[env.production.r2_buckets]]
+binding = "STORAGE"
+bucket_name = "slipsync"
+
+[vars]
+GOOGLE_CLIENT_ID = "<your-google-client-id>"
+
+# Secrets (set via wrangler secrets)
+# GOOGLE_CLIENT_SECRET
+# AUTH_SECRET

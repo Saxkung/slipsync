@@ -1,0 +1,21 @@
+{
+  "name": "@slipsync/api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "dependencies": {
+    "hono": "^4.4.0",
+    "@cloudflare/workers-types": "^4.20240620.0",
+    "zod": "^3.23.8",
+    "@slipsync/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "wrangler": "^3.60.0",
+    "@types/node": "20.14.0",
+    "typescript": "5.4.5"
+  }
+}

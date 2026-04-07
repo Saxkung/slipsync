@@ -1,0 +1,9 @@
+{
+  "name": "@slipsync/shared",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    "./types": "./types.ts"
+  },
+  "types": "./types.ts"
+}
