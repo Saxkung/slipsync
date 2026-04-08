@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "hono": "^4.4.0",
+    "@hono/cors": "^4.3.1",
     "@cloudflare/workers-types": "^4.20240620.0",
-    "zod": "^3.23.8",
-    "@slipsync/shared": "workspace:*"
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "wrangler": "^3.60.0",
